@@ -374,6 +374,11 @@ img {
     justify-content: center;
 }
 
+.team-soc-icon {
+    width: 16px;
+    height: 16px;
+}
+
 /*--------------------customers------------------- */
 
 .customers {
