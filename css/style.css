@@ -4,6 +4,7 @@
     --address-color: #434455;
     --hero-color: #FFFFFF;
     --footer-color: #F4F4FD;
+    --icons-color: #8e8f99;
 }
 
 body {
@@ -412,14 +413,14 @@ img {
 }
 
 .customers-link:hover {
-    border-color: orange;
+    border-color: #404bbf;
 }
 
 .customers-link:hover .customers-icons {
-    fill: orange;
+    fill: #404bbf;
 }
 .customers-icons {
-    fill: #8E8F99;;
+    fill: var(--icons-color);
 }
 
 
