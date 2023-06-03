@@ -250,7 +250,8 @@ img {
 
 .about-icons {
     width: 64px;
-    height: 64px;  
+    height: 64px;
+    
 }
 
 .about-link {
@@ -412,13 +413,22 @@ img {
     justify-content: center;
 }
 
-.customers-link:hover {
+.customers-link:hover{
     border-color: #404bbf;
 }
 
 .customers-link:hover .customers-icons {
     fill: #404bbf;
 }
+
+.customers-link:focus {
+    border-color: #404bbf;
+}
+
+.customers-link:focus .customers-icons {
+    fill: #404bbf;
+}
+
 .customers-icons {
     fill: var(--icons-color);
 }
