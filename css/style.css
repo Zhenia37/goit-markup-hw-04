@@ -531,25 +531,11 @@ img {
 
 }
 
-.footer-soc-link:hover {
-    border-color: #31d0aa;
-}
-
-.footer-soc-link:hover .customers-icons {
-    fill: #31d0aa;
-}
-
+.footer-soc-link:hover,
 .footer-soc-link:focus {
     border-color: #31d0aa;
 }
 
-.footer-soc-link:focus .footer-soc-link {
-    fill: #31d0aa;
-}
-
-.footer-soc-link {
-    fill: var(--footer-color);
-}
 
 .footer-soc-icon {}
 
@@ -606,6 +592,10 @@ img {
     row-gap: 48px;
     column-gap: 24px;
     justify-content: space-between;
+}
+
+.examples-link {
+    display: block;
 }
 
 .examples-link:hover,
