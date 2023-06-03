@@ -391,6 +391,11 @@ img {
     
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: #404bbf;
+}
+
 .team-soc-icon {
     fill: var(--footer-color);
     width: 16px;
@@ -447,10 +452,6 @@ img {
 
 .customers-link:focus {
     border-color: #404bbf;
-}
-
-.customers-link:focus .customers-icons {
-    fill: #404bbf;
 }
 
 .customers-icons {
@@ -534,7 +535,7 @@ img {
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-    border-color: #31d0aa;
+    background-color: #31d0aa;
 }
 
 
