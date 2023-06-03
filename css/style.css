@@ -374,7 +374,24 @@ img {
     justify-content: center;
 }
 
+.team-soc-link:hover {
+    border-color: #404bbf;
+}
+
+.team-soc-link:hover .team-soc-link {
+    fill: #404bbf;
+}
+
+.team-soc-link:focus {
+    border-color: #404bbf;
+}
+
+.team-soc-link:focus .team-soc-link {
+    fill: #404bbf;
+}
+
 .team-soc-icon {
+    fill: var(--footer-color);
     width: 16px;
     height: 16px;
 }
