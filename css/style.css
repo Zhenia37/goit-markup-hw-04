@@ -163,7 +163,7 @@ img {
 
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                    url(../images/backgorund/backgorund.png);
+                    url(../images/backgorund/backgorund.jpg);
     max-width: 1440px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -234,20 +234,22 @@ img {
 }
 
 .about-item {
-    width: calc((100% - 72px) / 4);
+}
+
+.about-icons-cont {
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 
 .about-icons {
     width: 64px;
-    height: 64px;
-    background-color: var(--footer-color);
-    
+    height: 64px;  
 }
 
 .about-link {
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
 }
 
 .about-heading {
