@@ -5,6 +5,8 @@
     --hero-color: #FFFFFF;
     --footer-color: #F4F4FD;
     --icons-color: #8e8f99;
+    --ocean-color: #404bbf;
+
 }
 
 body {
@@ -128,7 +130,7 @@ img {
 
 .header-logo:hover,
 .header-logo:focus {
-    color: #404bbf;
+    color: var(--ocean-color);
 }
 
 .header-link {
@@ -142,7 +144,7 @@ img {
 
 .header-link:hover,
 .header-link:focus {
-    color: #404bbf;
+    color: var(--ocean-color);
 }
 
 .header-address {
@@ -158,7 +160,7 @@ img {
 
 .header-address-item:hover,
 .header-address-item:focus {
-    color: #404bbf;
+    color: var(--ocean-color);
 }
 
 /*------------------------hero---------------------*/
@@ -216,7 +218,7 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--ocean-color);
 }
 
 /*----------------business solution-----------------*/
@@ -364,19 +366,19 @@ img {
 }
 
 .team-soc-item {
-    border-color: #404bbf;
+    border-color: var(--ocean-color);
 }
 
 .team-soc-item:hover .team-soc-item {
-    fill: #404bbf;
+    fill: var(--ocean-color);
 }
 
 .team-soc-item:focus {
-    border-color: #404bbf;
+    border-color: var(--ocean-color);
 }
 
 .team-soc-item:focus .team-soc-item {
-    fill: #404bbf;
+    fill: var(--ocean-color);
 }
 
 .team-soc-link {
@@ -393,7 +395,7 @@ img {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-    background-color: #404bbf;
+    background-color: var(--ocean-color);
 }
 
 .team-soc-icon {
@@ -442,16 +444,10 @@ img {
     color: var(--icons-color);
 }
 
-.customers-link:hover{
-    border-color: #404bbf;
-}
-
-.customers-link:hover .customers-icons {
-    fill: #404bbf;
-}
-
+.customers-link:hover,
 .customers-link:focus {
-    border-color: #404bbf;
+    border-color: var(--ocean-color);
+    color: var(--ocean-color) ;
 }
 
 .customers-icons {
