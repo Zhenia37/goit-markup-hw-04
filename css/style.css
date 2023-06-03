@@ -388,6 +388,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .team-soc-icon {
@@ -413,7 +414,6 @@ img {
     color: var(--main-color);
     text-align: center;
     margin-bottom: 72px;
-    
 }
 
 .customers-list {
@@ -434,6 +434,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--icons-color);
 }
 
 .customers-link:hover{
@@ -453,7 +454,7 @@ img {
 }
 
 .customers-icons {
-    fill: var(--icons-color);
+    fill: currentColor;
 }
 
 
@@ -537,7 +538,9 @@ img {
 }
 
 
-.footer-soc-icon {}
+.footer-soc-icon {
+    fill: var(--footer-color);
+}
 
 /*-----------portfolio filter our works------------*/
 
