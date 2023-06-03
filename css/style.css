@@ -363,6 +363,22 @@ img {
 
 }
 
+.team-soc-item {
+    border-color: #404bbf;
+}
+
+.team-soc-item:hover .team-soc-item {
+    fill: #404bbf;
+}
+
+.team-soc-item:focus {
+    border-color: #404bbf;
+}
+
+.team-soc-item:focus .team-soc-item {
+    fill: #404bbf;
+}
+
 .team-soc-link {
     width: 100%;
     height: 100%;
@@ -372,22 +388,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.team-soc-link:hover {
-    border-color: #404bbf;
-}
-
-.team-soc-link:hover .team-soc-link {
-    fill: #404bbf;
-}
-
-.team-soc-link:focus {
-    border-color: #404bbf;
-}
-
-.team-soc-link:focus .team-soc-link {
-    fill: #404bbf;
 }
 
 .team-soc-icon {
