@@ -54,7 +54,7 @@ img {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .visually-hidden {
@@ -189,12 +189,6 @@ img {
 
 }
 
-.hero-title:hover,
-.hero-title:focus {
-    color: var(--secondary-color);
-}
-
-
 .hero-btn {
     min-width: 169px;
     height: 56px;
@@ -209,7 +203,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--hero-color);
-    background-color: #4D5AE5;
+    background-color: var(--secondary-color);
     cursor: pointer;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -238,6 +232,7 @@ img {
 }
 
 .about-item {
+    width: calc((100% - 24px) / 4);
 }
 
 .about-icons-cont {
@@ -245,7 +240,7 @@ img {
     align-items: center;
     justify-content: center;
     height: 112px;
-    background-color: #f4f4fd;
+    background-color: var(--footer-color);
     margin-bottom: 8px;
     border-radius: 4px;
 }
@@ -302,7 +297,7 @@ img {
 /*--------------------our team---------------------*/
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--footer-color);
     padding: 120px 0;
 }
 
@@ -384,7 +379,7 @@ img {
 .team-soc-link {
     width: 100%;
     height: 100%;
-    background-color: #4D5AE5;
+    background-color: var(--secondary-color);
     border-radius: 50%;
     display: block;
     display: flex;
@@ -463,7 +458,7 @@ img {
 }
 
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--main-color);
     padding: 100px 0 100px;
 }
 
@@ -488,7 +483,7 @@ img {
 }
 
 .footer-logo-span {
-    color: #f4f4fd;
+    color: var(--footer-color);
 }
 
 .footer-text {
@@ -563,7 +558,7 @@ img {
     letter-spacing: 0.04em;
     color: var(--secondary-color);
     cursor: pointer;
-    background-color: #F4F4FD;
+    background-color: var(--footer-color);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
@@ -571,7 +566,7 @@ img {
 
 .filter-btn:hover,
 .filter-btn:focus {
-    background: #404BBF;
+    background: var(--ocean-color);
     color: var(--hero-color);
     border: 1px solid transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
